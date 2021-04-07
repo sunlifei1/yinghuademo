@@ -111,14 +111,14 @@ const port = process.env.PORT || 3000
 const host = process.env.HOST || ''
 
 app.server = app.listen(port, host, () => {
-  console.log(`server running @ http://${host ? host : 'localhost'}:${port}`)
+ // console.log(`server running @ http://${host ? host : 'localhost'}:${port}`)
 })
 
 //module.exports = app
 module.exports = {
   type: 'webview',
-  url: `http://localhost:3000/#home`,
-
+  url: `http://localhost:3000`
+  // searchRoute: $route('search'),
   // onEvent(name, data) {
   //   if (name === 'log') {
   //     console.log(data)

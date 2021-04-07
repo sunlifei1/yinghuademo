@@ -1,46 +1,45 @@
 {
-  "name": "dorajs-sakura-anime",
-  "displayName": "静态网站测试",
+  "name": "dorajs-wang-yi-yun-yin-le",
+  "displayName": "网易云音乐",
   "version": "1.0.0",
-  "uuid": "f5c1c0ef-367d-4878-a929-7c61d9bb9f54",
-  "description": "基于樱花动漫改的",
+  "uuid": "d05707b3-9942-4327-9580-f4f5b7c632e8",
+  "description": "没有描述",
   "icon": "assets/icon.png",
   "prefs": "assets/prefs.json",
   "main": "main.js",
   "license": "UNLICENSED",
   "author": {
-    "name": "toubutu",
-    "fullName": "",
-    "email": "liuwenkiii@gmail.com"
+    "name": "瓶盖儿"
   },
   "engineStrick": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/liuwenkiii/Dorajs-Sakura-Anime.git"
-  },
-  "donates": {
-    "wechat": "assets/wechat.png",
-    "alipay": "assets/alipay.jpg"
+    "url": ""
   },
   "updates": "",
   "contributes": {
-    "search": "browse"
+    "search": null
   },
   "homepage": "",
   "engines": {
-    "dora": ">=1.7.0"
+    "dora": ">=2.0.0"
   },
   "keywords": [
     "Dora.js"
   ],
-  "categories": [
-    "video"
-  ],
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "iconv-lite": "^0.5.1",
-    "express": "^4.17.1",
+
+    "core-js": "^3.4.3",
+    "fastclick": "^1.0.6",
+    "smoothscroll-polyfill": "^0.4.4",
+    "vant": "^2.2.16",
+    "vue": "^2.6.10",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2",
     "axios": "^0.21.1",
+    "express": "^4.17.1",
     "express-fileupload": "^1.1.9",
     "md5": "^2.3.0",
     "music-metadata": "^7.5.3",
